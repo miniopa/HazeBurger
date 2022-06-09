@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+ /* header**************************************** */
+
+ .header{
+     background-color: orange;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center
+ }
+
+ .logo-y-titulo{
+     display: flex;
+     align-items: center
+     
+ }
+
+.logo-y-titulo img{
+    margin: 10px;
+    height: 100px;
+}
+
+.barra-nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+}
+
+.barra-nav ul li{
+    padding-left: 50px;
+}
+
+.barra-nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+ /* FOOOTER********************************************/
+ .footer {
+    display: flex;
+    background-color: #121619;
+}
+
+.redes img {
+    width: 40px;
+}
+
+.redes img {
+    margin: 10px;
+}
