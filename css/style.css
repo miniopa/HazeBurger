@@ -39,7 +39,7 @@ body {}
     color: black;
 }
 
-/* ***********MAIN************** */
+/* ***********MAIN/INDEX************** */
 
 .imgprincipal img {
     width: 100%;
@@ -48,6 +48,7 @@ body {}
 .imgconparrafo{
     background-image: url(../img/hamburgerfondo.jpg);
     background-position: center;
+    background-size: 1300px;
 }
 
 .imgconparrafo{
@@ -62,10 +63,15 @@ body {}
     font-size: 30px;
 }
 
-/* carrousel********** */
-
 .carousel-item img{
-    height: 700px;
+    height: 800px;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-size: 100px;
 }
 
 /* FOOOTER********************************************/
