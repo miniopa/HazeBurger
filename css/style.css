@@ -62,6 +62,12 @@ body {}
     font-size: 30px;
 }
 
+/* carrousel********** */
+
+.carousel-item img{
+    height: 700px;
+}
+
 /* FOOOTER********************************************/
 .footer {
     display: flex;
