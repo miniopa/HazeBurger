@@ -113,10 +113,9 @@ body {}
 
 .delivery {
     background-image: url(../img/deliveryrappi.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     height: 1000px;
-    width: 1263px;
 }
 
 .rappipedidoya div a img {
@@ -263,7 +262,22 @@ body {}
 
 /* **********NOTICIAS********* */
 
+.titulo-y-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/fondo.contactanos.jpg);
+    background-position: left;
+}
 
+.titulo-y-video h1{
+    color: #E7ECEF;
+    margin: 30px;
+}
+
+.titulo-y-video video{
+    margin: 60px;
+}
 
 /* FOOOTER********************************************/
 .footer {
