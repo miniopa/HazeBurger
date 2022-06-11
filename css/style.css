@@ -19,7 +19,7 @@ body {
 }
 
 .logo-y-titulo {
-    color: #F2FBE0;
+    color: #E7ECEF;
     display: flex;
     align-items: center
 }
@@ -45,7 +45,7 @@ body {
 
 .barra-nav ul li a {
     text-decoration: none;
-    color: #F2FBE0;
+    color: #E7ECEF;
 }
 
 /* ***********MAIN/INDEX************** */
@@ -64,7 +64,7 @@ body {
     left: 10px;
     padding: 20px;
     font-size: 30px;
-    color: white;
+    color: #E7ECEF;
     background-color: rgba(0, 0, 0, 0.123);
 }
 
@@ -77,7 +77,7 @@ body {
 .imgconparrafo{
     display: grid;
     justify-items: center;
-    color: #F2FBE0;
+    color: #E7ECEF;
 }
 
 .imgconparrafo h2{
@@ -94,11 +94,15 @@ body {
     background-color: rgba(0, 0, 0, 0.363);
 }
 
-/* ************MENU*************** */
-
-
 
 /* **************DELIVERY***************************************/
+
+.delivery{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
 .delivery{
     background-image: url(../img/deliveryrappi.jpg);
     background-repeat: no-repeat;
@@ -113,12 +117,20 @@ body {
     width: 300px;
 }
 
-.delivery h2{
-    display: inline-block;
-    color: #E7ECEF;
+.googlemaps{
+    position: relative;
+    left: 210px;
+    top: 80px;
 }
 
-/* *******************CONTACTANOS************************/
+.delivery h2{
+    font-size: 40px;
+    color: #E7ECEF;
+    position: relative;
+    top: 80px;
+}
+
+/* ************MENU*************** */
 
 .hamburguesas{
     background-image: url(../img/burger-yellow.jpg);
@@ -138,6 +150,14 @@ body {
     margin: 20px;
     position: relative;
     left: 120px;
+    transition: all 1s;
+}
+
+.hamburguesas img:hover{
+    background-color: #121619c9;
+    border-radius: 100px;
+    transition: .3s;
+    transform: scale(1.1);
 }
 
 .precios-burgers{
@@ -150,7 +170,70 @@ body {
 }
 
 .precios-burgers table tr{
-    color: #F2FBE0;
+    color: #E7ECEF;
+}
+
+/* ************CONTACANTANOS********* */
+
+.contactanos{
+    background-image: url(../img/fondo.contactanos.jpg);
+    background-position: left;
+    font-size: 10px;
+}
+
+.contactanos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulodecontactos{
+    margin-top: 50px;
+    color: #EDFFD9;
+}
+
+.contactanos form{
+    margin: 100px;
+    text-align: center;
+}
+
+.contactanos form p input{
+    font-size: 20px;
+    width: 350px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.contactanos form textarea{
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.contactanos h2{
+    color: #E7ECEF;
+}
+
+.contactanos form p input{
+    transition: all 1s;
+}
+
+.contactanos form p input:hover{
+    transition: 0.5;
+    transform: scale(1.2);
+}
+
+.contactanos button{
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #F4D35E;
+    transition: all 1s;
+}
+
+.contactanos button:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
 }
 
 /* FOOOTER********************************************/
