@@ -74,10 +74,35 @@ body {}
     font-size: 100px;
 }
 
+/* **************DELIVERY***************************************/
+.delivery{
+    background-image: url(../img/deliveryrappi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    width: 1263px;
+}
+.rappipedidoya div a img{
+    margin: 50px;
+    border-radius: 250px;
+    height: 200px;
+    width: 300px;
+}
+.googlemaps{
+}
+.delivery h2{
+    display: inline-block;
+    color: #E7ECEF;
+}
+
+/* *******************CONTACTANOS************************/
+
+
 /* FOOOTER********************************************/
 .footer {
-    display: flex;
     background-color: #121619;
+    display: flex;
+    justify-content: center
 }
 
 .redes img {
