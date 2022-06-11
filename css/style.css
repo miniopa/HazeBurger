@@ -1,20 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
 }
 
-body {}
+body {
+
+}
 
 /* header**************************************** */
 
 .header {
-    background-color: orange;
+    background-image: linear-gradient(to bottom, #000411, #091418, #151d1d, #212523, #2d2e2c);
     display: flex;
     justify-content: space-evenly;
-    align-items: center
+    align-items: center;
+    position: relative;
 }
 
 .logo-y-titulo {
+    color: #F2FBE0;
     display: flex;
     align-items: center
 }
@@ -22,45 +27,31 @@ body {}
 .logo-y-titulo img {
     margin: 10px;
     height: 100px;
+    background-color: orange;
+    border-radius: 20px;
 }
 
 .barra-nav ul {
     display: flex;
     list-style: none;
     font-size: 20px;
+    position: relative;
+    top: 7px;
 }
 
 .barra-nav ul li {
-    padding-left: 50px;
+    padding-left: 70px;
 }
 
 .barra-nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #F2FBE0;
 }
 
 /* ***********MAIN/INDEX************** */
 
 .imgprincipal img {
     width: 100%;
-}
-
-.imgconparrafo{
-    background-image: url(../img/hamburgerfondo.jpg);
-    background-position: center;
-    background-size: 1300px;
-}
-
-.imgconparrafo{
-    display: flex;
-}
-
-.imgconparrafo p{
-    border: solid black 5px;
-    border-radius: 30px;
-    margin: 150px;
-    padding: 20px;
-    font-size: 30px;
 }
 
 .carousel-item img{
@@ -71,8 +62,41 @@ body {}
     position: absolute;
     top: 400px;
     left: 10px;
-    font-size: 100px;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.123);
 }
+
+.imgconparrafo{
+    background-image: url(../img/hamburgerfondo.jpg);
+    background-position: center;
+    background-size: 1300px;
+}
+
+.imgconparrafo{
+    display: grid;
+    justify-items: center;
+    color: #F2FBE0;
+}
+
+.imgconparrafo h2{
+    position: relative;
+    top: 50px;
+}
+
+.imgconparrafo p{
+    border-radius: 20px;
+    margin: 150px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+/* ************MENU*************** */
+
+
 
 /* **************DELIVERY***************************************/
 .delivery{
@@ -88,8 +112,7 @@ body {}
     height: 200px;
     width: 300px;
 }
-.googlemaps{
-}
+
 .delivery h2{
     display: inline-block;
     color: #E7ECEF;
@@ -97,10 +120,42 @@ body {}
 
 /* *******************CONTACTANOS************************/
 
+.hamburguesas{
+    background-image: url(../img/burger-yellow.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.hamburguesas{
+    display: grid;
+    justify-content: center;
+    padding: 25px;
+}
+
+.hamburguesas img{
+    width: 300px;
+    margin: 20px;
+    position: relative;
+    left: 120px;
+}
+
+.precios-burgers{
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 20px;
+}
+
+.precios-burgers table tr{
+    color: #F2FBE0;
+}
 
 /* FOOOTER********************************************/
 .footer {
-    background-color: #121619;
+    background-image: linear-gradient(to bottom, #000411, #030f14, #0e1615, #181a18, #1f1f1e);
     display: flex;
     justify-content: center
 }
@@ -111,4 +166,13 @@ body {}
 
 .redes img {
     margin: 10px;
+    margin-left: 80px;
+}
+
+.texto-chico{
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 100px;
+    color: #E7ECEF;
 }
