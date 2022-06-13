@@ -335,8 +335,136 @@ body {}
 
 /* ***MEDIAQUERY*******MOBILE LAST */
 
-@media (max-width:1024){
-    .header{
+@media (max-width:768px) {
+
+    /* ***HEADER*** */
+    .header {
+        display: grid;
+        justify-items: center;
+    }
+
+    /* *****DELIVERY**** */
+
+    .rappipedidoya div a img {
+        width: 200px;
+    }
+
+    .googlemaps {
+        left: 110px;
+    }
+
+    /* ******NOTICIAS****** */
+
+    .titulo-y-video video {
+        margin: 110px;
+        width: 600px;
+    }
+
+    /* ****FOOTER**** */
+    .footer {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+@media (max-width:425px) {
+
+    /* ****HEADER**** */
+    .barra-nav ul {
+        flex-direction: column;
+    }
+
+    .barra-nav ul li {
+        border: solid black 2px;
+        border-radius: 10px;
+        margin: 2px;
+    }
+
+    /* ***MAIN**** */
+    .imgconparrafo {
+        justify-content: center;
+    }
+
+    .imgconparrafo {
+        background-size: 2220px;
+    }
+
+    /* *****FOOTER****** */
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .redes img {
+        margin: 10px;
+    }
+
+    .texto-chico {
+        right: 0px;
+    }
+
+    /* *****MENU***** */
+    .hamburguesas img{
+        left: 20px;
+    }
+
+    /* *****CONTACTANOS***** */
+
+    .rappipedidoya div a img{
+        margin: 20px;
+        border-radius: 150px;
+        height: 100px;
+        width: 150px;
+    }
+
+    .googlemaps {
+        left: 0;
+    }
+
+    .titulo-y-video video {
+        width: 400px;
+    }
+
+}
+
+@media (max-width:375px){
+    /* ****CONTACTANOS7MAIN**** */
+
+    .contactanos form textarea{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .titulo-y-video video {
+        width: 350px;
+    }
+
+}
+
+@media (max-width:320px){
+
+    /******DELIVERY******/
+    .rappipedidoya div a img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .googlemaps {
         display: none;
+    }
+
+    /* *****CONTACTANOS*** */
+    .contactanos form p input {
+        width: 280px;
+    }
+    
+    .contactanos form textarea {
+        font-size: 14px;
+    }
+
+    /* ****NOTICIAS**** */
+    .titulo-y-video video {
+        width: 300px;
     }
 }
