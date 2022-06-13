@@ -334,6 +334,21 @@ body {}
 }
 
 /* ***MEDIAQUERY*******MOBILE LAST */
+@media (max-width:1024px){
+    /* ****CONTACTANOS**** */
+    .contactanos form{
+        margin: 200px;
+    }
+
+    /* *****NOTICIAS*** */
+
+    .titulo-y-video video {
+        margin: 250px;
+        position: relative;
+        bottom: 50px;
+    }
+
+}
 
 @media (max-width:768px) {
 
