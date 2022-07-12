@@ -4,8 +4,6 @@
     font-family: 'Oswald', sans-serif;
 }
 
-body {}
-
 /* header**************************************** */
 
 .header {
@@ -334,9 +332,10 @@ body {}
 }
 
 /* ***MEDIAQUERY*******MOBILE LAST */
-@media (max-width:1024px){
+@media (max-width:1024px) {
+
     /* ****CONTACTANOS**** */
-    .contactanos form{
+    .contactanos form {
         margin: 200px;
     }
 
@@ -420,13 +419,13 @@ body {}
     }
 
     /* *****MENU***** */
-    .hamburguesas img{
+    .hamburguesas img {
         left: 20px;
     }
 
     /* *****CONTACTANOS***** */
 
-    .rappipedidoya div a img{
+    .rappipedidoya div a img {
         margin: 20px;
         border-radius: 150px;
         height: 100px;
@@ -443,10 +442,10 @@ body {}
 
 }
 
-@media (max-width:375px){
+@media (max-width:375px) {
     /* ****CONTACTANOS7MAIN**** */
 
-    .contactanos form textarea{
+    .contactanos form textarea {
         font-size: 18px;
         text-align: center;
     }
@@ -457,7 +456,7 @@ body {}
 
 }
 
-@media (max-width:320px){
+@media (max-width:320px) {
 
     /******DELIVERY******/
     .rappipedidoya div a img {
@@ -473,7 +472,7 @@ body {}
     .contactanos form p input {
         width: 280px;
     }
-    
+
     .contactanos form textarea {
         font-size: 14px;
     }
